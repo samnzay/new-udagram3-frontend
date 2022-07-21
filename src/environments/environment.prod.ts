@@ -4,8 +4,11 @@
 
 export const environment = {
   production: false,
-  appName: 'Udagram',
-  apiHost: 'http://localhost:8080/api/v0'
+  appName: 'Udagram3 by Samuel NZAYISENGA',
+  //apiHost: 'http://localhost:8080/api/v0'
+  //LOCAL HOST REPLACED WITH Exteral IP of ReverseProxy optained after deployment K8s
+  //=================================================================================
+  apiHost: 'http://aedeb024498ee49bab66d21af4429b2b-7348595.us-west-2.elb.amazonaws.com:8080/api/v0',
 };
 
 /*
