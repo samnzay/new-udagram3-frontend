@@ -8,7 +8,7 @@ export const environment = {
   //apiHost: 'http://localhost:8080/api/v0'
   //LOCAL HOST REPLACED WITH Exteral IP of ReverseProxy optained after deployment K8s
   //=================================================================================
-  apiHost: 'http://a28fe6b686b5c4535a061dc254b602dd-1316197606.us-west-2.elb.amazonaws.com:8080/api/v0',
+  apiHost: 'http://a5512fc2a03d6474bb4a15c53479b8c6-1748163954.us-west-2.elb.amazonaws.com:8080/api/v0',
 };
 
 /*
